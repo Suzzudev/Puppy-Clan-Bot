@@ -1,0 +1,15 @@
+{
+  "name": "puppy_clan_bot",
+  "version": "1.0.0",
+  "description": "My discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Puppy681Nuff",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "ms": "^2.1.2"
+  }
+}
