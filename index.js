@@ -15,7 +15,8 @@ const bot = new Discord.Client();
 const version = '0.5.0'; 
 
 //Logging in
-bot.token(PIlciB5dafwRkoxrKMh67sHrN_cN_m3p);
+string token PIlciB5dafwRkoxrKMh67sHrN_cN_m3p;
+bot.login(token);
 
 //the prefix before the commands
 const PREFIX = 'woof?'
