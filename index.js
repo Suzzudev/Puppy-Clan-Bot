@@ -15,8 +15,7 @@ const bot = new Discord.Client();
 const version = '0.5.0'; 
 
 //Logging in
-string token PIlciB5dafwRkoxrKMh67sHrN_cN_m3p;
-bot.login(token);
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
 
 //the prefix before the commands
 const PREFIX = 'woof?'
